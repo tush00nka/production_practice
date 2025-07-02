@@ -66,14 +66,14 @@ XAMPP (@download_xampp).
 По адресу http://localhost/progblog/wp-admin была произведена установка WordPress.
 
 По окончании установки и создания аккаунта администратора была автоматически создана
-страница по-умолчанию (@default-page)
+страница по-умолчанию (@default-page).
 
 #figure(
     caption: [Вид страницы по-умолчанию],
     image("work1/default_page.png")
 ) <default-page>
 
-При входе в аккаунт администратора появляется доступ к консоли (@admin-panel)
+При входе в аккаунт администратора появляется доступ к консоли (@admin-panel).
 
 #figure(
     caption: [Вид Консоли администратора],
@@ -81,6 +81,118 @@ XAMPP (@download_xampp).
 ) <admin-panel>
 
 = АДМИНИСТРИРОВАНИЕ ИНТЕРНЕТ-ПРИЛОЖЕНИЯ НА CMS WORDPRESS
+
+По адресу http://localhost/progblog/wp-admin/ был выполнен вход в панель управления
+CMS WordPress. 
+
+В разделе "Общие" пункта "Настройки" были установлены адрес и название
+интернет-приложения, дано краткое его описание, указан адрес электронной почты
+администратора, настроены параметры даты и времени, а также задана иконка сайта
+(@settings-general). 
+
+#figure(
+    caption: [Общие настройки],
+    image("work2/settings_general.png")
+) <settings-general>
+
+В разделе "Чтение" был установлен чекбокс "Попросить поисковые системы не индексировать сайт" (@settings-reading).
+
+#figure(
+    caption: [Настройки чтения],
+    image("work2/settings_reading.png")
+) <settings-reading>
+
+В разделе "Профиль" пункта "Пользователи" был установлен аватар администратора (@users-profile).
+
+#figure(
+    caption: [Изменение аватара администратора],
+    image("work2/users_profile.png")
+) <users-profile>
+
+Далее были добавлены пользователи с различными определёнными ролями. Процесс
+добавления пользователя с ролью "Автор" представлен на @adding-author[рисунке].
+
+#figure(
+    caption: [Добавление пользователя с ролью "Автор"],
+    image("work2/adding_author.png")
+) <adding-author>
+
+Всего было создано пять пользователей: по одному на каждую роль (@added-users).
+
+#figure(
+    caption: [Итоговый список пользователей],
+    image("work2/added_users.png")
+) <added-users>
+
+
+Далее были выполнены настройки комментариев на опубликованные материалы 
+(@settings-discussion).
+
+#figure(
+    caption: [Настройки комментариев],
+    image("work2/settings_discussion.png")
+) <settings-discussion>
+
+Для добавления комментария не от имени администратора, был выполнен вход в 
+аккаунт с ролью "Участник". Выполнен переход на страницу с записью по-умолчанию
+и набран текст коммеентария (@commenting)
+
+#figure(
+    caption: [Процесс комментирования записи],
+    image("work2/commenting.png")
+) <commenting>
+
+При отправке комментария отображается оповещение о необходимости одобрения
+комментария администратором (@comment-no-review).
+
+#figure(
+    caption: [Комментарий в ожидании одобрения],
+    image("work2/comment_no_review.png")
+) <comment-no-review>
+
+От имени администратора был выполнен переход в панель управления, в раздел
+"Комментарии" и одобрен оставленный раннее комментарий (@comment-review).
+
+#figure(
+    caption: [Процесс одобрения комментария],
+    image("work2/comment_review.png")
+) <comment-review>
+
+Далее была выполненаа настройка блоков на главной странице сайта.
+Вид главной страницы до изменений представлен на @page-before[рисунке].
+
+#figure(
+    caption: [Страница сайта до изменений],
+    image("work2/page_before.png")
+) <page-before>
+
+Был удалён блок "Нет результатов" (@page-no-result), а также два блока "Навигация"
+(@page-navigation).
+
+#figure(
+    caption: [Удаление блока "Нет результатов"],
+    image("work2/page_no_result.png")
+) <page-no-result>
+
+#figure(
+    caption: [Удаление блоков "Навигация"],
+    image("work2/page_navigation.png")
+) <page-navigation>
+
+Вместо удалённых блоков на страницу был добавлен блок "Календарь" (@page-calendar).
+
+#figure(
+    caption: [Добавление блока "Календарь"],
+    image("work2/page_calendar.png")
+) <page-calendar>
+
+Итоговый вид отредактированной главной страницы представлен на @page-after[рисунке].
+
+#figure(
+    caption: [Итоговый вид главной страницы],
+    image("work2/page_after.png")
+) <page-after>
+
 
 = ПРОЕКТИРОВАНИЕ НАВИГАЦИОННОГО МЕНЮ ИНТЕРНЕТ-ПРИЛОЖЕНИЯ
 
