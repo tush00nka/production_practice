@@ -346,7 +346,105 @@ CMS WordPress.
 
 = РАСШИРЕНИЕ ФУНКЦИОНАЛЬНЫХ ВОЗМОЖНОСТЕЙ ИНТЕРНЕТ-ПРИЛОЖЕНИЯ СРЕДСТВАМИ CMS WORDPRESS
 
+Для расширения функциональных возможностей интернет-приложения средствами
+CMS WordPress были установлены, активированы и настроены следующие плагины:
++ Cyr To Lat;
++ WPForms;
++ To Top;
++ Theme My Login;
++ Akismet Anti-Spam.
 
+Плагин Cyr To Lat позволяет транслитерировать названия страниц в постоянных
+ссылках сайта для избежания некорректного их отображения в случае использованя
+русскоязычного названия страницы (@cyr-to-lat).
+
+#figure(
+    caption: [Установка плагиина Cyr To Lat],
+    image("work5/cyr_to_lat.png")
+) <cyr-to-lat>
+
+После установки появляется возможность изменить параметры транслитерации
+(@cyr-to-lat-settings).
+
+#figure(
+    caption: [Настройка плагиина Cyr To Lat],
+    image("work5/cyr_to_lat_settings.png")
+) <cyr-to-lat-settings>
+
+Вместо плагина Contact Form 7, предлагаемого в пособии, был использован 
+аналогичный плагин WPForms. Это обусловлено возникшей при активации плагина
+Contact Form 7 ошибки, препятствующей функционированию интернет-приложения (@wpforms).
+
+#figure(
+    caption: [Установка плагиина WPForms],
+    image("work5/wpforms.png")
+) <wpforms>
+
+Средствами плагина WPForms была создана и настроена форма обратной связи (@wpforms-settings). 
+
+#figure(
+    caption: [Настройка плагиина WPForms],
+    image("work5/wpforms_settings.png")
+) <wpforms-settings>
+
+Созданная форма была добавлена на статическую страницу обратной связи в 
+качестве виджета (@form-page). 
+
+#figure(
+    caption: [Вид страницы обратной связи],
+    image("work5/form_page.png")
+) <form-page>
+
+Плагин To Top добавляет кнопку "Наверх" на каждую страницу сайта (@to-top).
+
+#figure(
+    caption: [Установка плагиина To Top],
+    image("work5/to_top.png")
+) <to-top>
+
+Плагин также предоставляет гибкие настройки кнопки (@to-top-settings).
+
+#figure(
+    caption: [Настройка плагиина To Top],
+    image("work5/to_top_settings.png")
+) <to-top-settings>
+
+Далее был установлен плагин Theme My Login (@theme-my-login).
+
+#figure(
+    caption: [Установка плагиина Theme My Login],
+    image("work5/theme_my_login.png")
+) <theme-my-login>
+
+Плагин был настроен в панели управления плагина (@theme-my-login-settings)
+
+#figure(
+    caption: [Настройка плагиина Theme My Login],
+    image("work5/theme_my_login_settings.png")
+) <theme-my-login-settings>
+
+Плагин позволяет разместить форму входа и регистрации на каждой странице сайта
+(@login-sidebar)
+
+#figure(
+    caption: [Вид формы входа на странице сайта],
+    image("work5/login_sidebar.png")
+) <login-sidebar>
+
+Наконец, был установлен и активирован плагин Akismet Anti-Spam (@akismet).
+
+#figure(
+    caption: [Установка плагиина Akismet Anti-Spam],
+    image("work5/akismet.png")
+) <akismet>
+
+Плагин был подключен к сайту при помощи API-ключа в панели настроек 
+(@akismet-settings)
+
+#figure(
+    caption: [Настройка плагиина Akismet Anti-Spam],
+    image("work5/akismet_settings.png")
+) <akismet-settings>
 
 = РАЗМЕЩЕНИЕ МЕДИА-ИНФОРМАЦИИ НА ИНТЕРНЕТ-ПРИЛОЖЕНИИ
 
