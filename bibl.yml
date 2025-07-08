@@ -1,0 +1,15 @@
+How_Linux_Work:
+  type: Book
+  title: 'Средства автоматизации разработки интернет-приложений'
+  publisher: ГУАП
+  author: 'Аграновский А.В., Ненашев В.А., Павлов В.С.'
+  language: ru
+  date: 2019
+  page-range: 105
+
+progarchives:
+  type: Web
+  title: Сайт ProgArchives
+  url:
+    value: https://progarchives.com/
+    date: 2025-07-08
