@@ -212,6 +212,8 @@
 		indent: first-line-indent,
 	)
 
+	set bibliography(style: "gost-7-1-2003.csl")
+
 	// GOST 7.32-2017, clause 6.16
 	show bibliography: it => {
 		show heading: align.with(center)

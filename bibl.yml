@@ -1,9 +1,22 @@
-How_Linux_Work:
+xampp:
+  type: Web
+  title: Сайт XAMPP. Apache Friends
+  url:
+    value: https://apachefriends.org/ru/index.html
+    date: 2025-07-08
+
+wordpress:
+  type: Web
+  title: Сайт wordpress
+  url:
+    value: https://ru.wordpress.com/
+    date: 2025-07-08
+
+textbook:
   type: Book
-  title: 'Средства автоматизации разработки интернет-приложений'
+  title: Средства автоматизации разработки интернет-приложений
   publisher: ГУАП
-  author: 'Аграновский А.В., Ненашев В.А., Павлов В.С.'
-  language: ru
+  author: 'Аграновский А.В. Ненашев В.А. Павлов В.С.'
   date: 2019
   page-range: 105
 
